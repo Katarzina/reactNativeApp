@@ -1,7 +1,10 @@
 export const colors = {
   light: '#ffffff',
   dark: '#263238',
+  black: '#000',
+  dark200: '#222222',
   gray200: '#eeeeee',
+  gray450: '#b5b5b5',
 };
 
 export const headingSizes = {
@@ -26,4 +29,9 @@ export const spacingSizes = {
   md: 15,
   lg: 23,
   xl: 50,
+};
+
+export const borderRadiusSizes = {
+  sm: 8,
+  md: 15,
 };

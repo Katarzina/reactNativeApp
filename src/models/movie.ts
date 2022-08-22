@@ -9,3 +9,8 @@ export type MovieType = {
   plot: string;
   posterUrl: string;
 };
+
+export type MoviesType = {
+  title: string;
+  items: MovieType[];
+};
